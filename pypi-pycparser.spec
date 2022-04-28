@@ -4,7 +4,7 @@
 #
 Name     : pypi-pycparser
 Version  : 2.21
-Release  : 80
+Release  : 81
 URL      : https://files.pythonhosted.org/packages/5e/0b/95d387f5f4433cb0f53ff7ad859bd2c6051051cebbb564f139a999ab46de/pycparser-2.21.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5e/0b/95d387f5f4433cb0f53ff7ad859bd2c6051051cebbb564f139a999ab46de/pycparser-2.21.tar.gz
 Summary  : C parser in Python
@@ -14,9 +14,6 @@ Requires: pypi-pycparser-license = %{version}-%{release}
 Requires: pypi-pycparser-python = %{version}-%{release}
 Requires: pypi-pycparser-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pycparser
-Provides: pycparser-python
-Provides: pycparser-python3
 
 %description
 pycparser is a complete parser of the C language, written in
@@ -60,7 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641474051
+export SOURCE_DATE_EPOCH=1651168466
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
