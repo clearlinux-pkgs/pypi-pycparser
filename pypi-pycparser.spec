@@ -5,7 +5,7 @@
 #
 Name     : pypi-pycparser
 Version  : 2.21
-Release  : 92
+Release  : 93
 URL      : https://files.pythonhosted.org/packages/5e/0b/95d387f5f4433cb0f53ff7ad859bd2c6051051cebbb564f139a999ab46de/pycparser-2.21.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5e/0b/95d387f5f4433cb0f53ff7ad859bd2c6051051cebbb564f139a999ab46de/pycparser-2.21.tar.gz
 Summary  : C parser in Python
